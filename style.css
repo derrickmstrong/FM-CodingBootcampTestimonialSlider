@@ -1,0 +1,91 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.img-container {
+    position: relative;
+}
+
+.profile-pic {
+  width: 15.7rem;
+  position: relative;
+  top: 1.55rem;
+  left: 0rem;
+  z-index: 1;
+  -webkit-box-shadow: box-shadow: 0px 10px 5px 0px hsla(240, 38%, 20%, 0.15);
+-moz-box-shadow: box-shadow: 0px 10px 5px 0px hsla(240, 38%, 20%, 0.15);
+box-shadow: 0px 10px 5px 0px hsla(240, 38%, 20%, 0.15);
+}
+.img-bg {
+  width: 19.75rem;
+  position: absolute;
+  left: -1.5rem;
+  top: 0rem;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: rem;
+  width: 40%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px 0px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.25);
+box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+z-index: 2;
+}
+.icon {
+  padding: 0 15px;
+}
+
+
+.quote-container {
+  position: relative;
+  padding-top: 1rem;
+}
+.quotation-mark {
+  width: 4rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 2rem;
+}
+.quote {
+  position: relative;
+  z-index: 15;
+  font-size: 5vw;
+  text-align: center;
+}
+.name,
+.title {
+  text-align: center;
+}
+.name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.title {
+  position: relative;
+  top: -1em;
+  font-size: small;
+}
+.img-curve {
+  position: relative;
+  bottom: 0;
+  width: 85%;
+}
