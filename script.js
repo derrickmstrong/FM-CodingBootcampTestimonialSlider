@@ -29,18 +29,17 @@ $(function () {
   function clickPrev() {
     if (i > 0) {
       i--;
-    $('.quote').html(profile[i].quote);
-    $('.name').html(profile[i].name);
-    $('.title').html(profile[i].title);
-    $('.profile-pic').attr('src', profile[i].photo);
+      $('.quote').html(profile[i].quote);
+      $('.name').html(profile[i].name);
+      $('.title').html(profile[i].title);
+      $('.profile-pic').attr('src', profile[i].photo);
     } else if (i === 0) {
       i = profile.length - 1;
       $('.quote').html(profile[i].quote);
-    $('.name').html(profile[i].name);
-    $('.title').html(profile[i].title);
-    $('.profile-pic').attr('src', profile[i].photo);
+      $('.name').html(profile[i].name);
+      $('.title').html(profile[i].title);
+      $('.profile-pic').attr('src', profile[i].photo);
     }
-    
   }
   function clickNext() {
     if (i < profile.length - 1) {
