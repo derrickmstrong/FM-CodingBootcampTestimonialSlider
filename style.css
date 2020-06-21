@@ -5,22 +5,25 @@ body {
 }
 
 #container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  
   padding: 0.5em;
 }
 
+/* #container > div {
+    text-align: center
+} */
+
 .img-container {
     position: relative;
+    text-align: center;
 }
 
 .profile-pic {
   width: 15.7rem;
   position: relative;
   top: 1.55rem;
-  left: 0rem;
+  left: .5rem;
   z-index: 1;
   -webkit-box-shadow: box-shadow: 0px 10px 5px 0px hsla(240, 38%, 20%, 0.15);
 -moz-box-shadow: box-shadow: 0px 10px 5px 0px hsla(240, 38%, 20%, 0.15);
@@ -29,7 +32,7 @@ box-shadow: 0px 10px 5px 0px hsla(240, 38%, 20%, 0.15);
 .img-bg {
   width: 19.75rem;
   position: absolute;
-  left: -1.5rem;
+  left: 1.5rem;
   top: 0rem;
 }
 .nav {
@@ -38,7 +41,7 @@ box-shadow: 0px 10px 5px 0px hsla(240, 38%, 20%, 0.15);
   align-items: center;
   position: relative;
   top: rem;
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
   background-color: #fff;
   padding: 10px 0px;
